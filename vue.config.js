@@ -4,5 +4,7 @@
  * @type {import('@vue/cli-service').ProjectOptions}
  */
  module.exports = {
-    '/guiller2211.github.io/'
+    process.env.NODE_ENV === 'production'
+    ? '/guiller2211.github.io/'
+    : '/'
   }
