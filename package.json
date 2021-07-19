@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "deploy.sh"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -19,6 +19,7 @@
     "bootstrap-icons": "^1.5.0",
     "core-js": "^3.6.5",
     "mtgsdk": "^0.4.3",
+    "travis": "^0.1.1",
     "vue": "^2.6.11",
     "vue-paginate": "^3.6.0"
   },
